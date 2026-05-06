@@ -1,0 +1,4 @@
+*.sbn
+*.bin
+.idea
+archive-tools

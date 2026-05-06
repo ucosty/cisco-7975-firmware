@@ -1,0 +1,184 @@
+├── apps75.9-3-1ES13.bin
+│   ├── bin
+│   │   ├── cat
+│   │   ├── chmod
+│   │   ├── chown
+│   │   ├── cmp
+│   │   ├── cnush
+│   │   ├── cp
+│   │   ├── cvw
+│   │   ├── date
+│   │   ├── debugsh
+│   │   ├── df
+│   │   ├── disp
+│   │   ├── du
+│   │   ├── echo
+│   │   ├── ethmibs
+│   │   ├── ethstats
+│   │   ├── ewCmd
+│   │   ├── groups
+│   │   ├── halt
+│   │   ├── head
+│   │   ├── hexdump
+│   │   ├── id
+│   │   ├── imgui
+│   │   ├── ipcstat
+│   │   ├── ipv6
+│   │   ├── kill
+│   │   ├── kldstat
+│   │   ├── ln
+│   │   ├── login
+│   │   ├── ls
+│   │   ├── mib2
+│   │   ├── mkdir
+│   │   ├── mkfifo
+│   │   ├── more
+│   │   ├── mount
+│   │   ├── mv
+│   │   ├── nice
+│   │   ├── nologin
+│   │   ├── ntp
+│   │   ├── ping
+│   │   ├── ping6
+│   │   ├── ps
+│   │   ├── reboot
+│   │   ├── rm
+│   │   ├── rmdir
+│   │   ├── secd
+│   │   ├── settmask
+│   │   ├── sh
+│   │   ├── sleep
+│   │   ├── slog
+│   │   ├── sostat
+│   │   ├── sshd
+│   │   ├── strace
+│   │   ├── stty
+│   │   ├── su
+│   │   ├── sync
+│   │   ├── syslogd
+│   │   ├── tail
+│   │   ├── tar
+│   │   ├── tftp
+│   │   ├── tftpClient
+│   │   ├── tnpdisp
+│   │   ├── touch
+│   │   ├── umount
+│   │   ├── uname
+│   │   ├── vm
+│   │   ├── vpnc
+│   │   ├── vpnu
+│   │   ├── which
+│   │   └── whoami
+│   ├── etc
+│   │   ├── profile
+│   │   ├── sysdvrs.def
+│   │   └── trace
+│   │       ├── ntp.master.trc
+│   │       ├── secd.master.trc
+│   │       ├── vieo.master.trc
+│   │       ├── vpnc.master.trc
+│   │       └── vpnu.master.trc
+│   ├── flash0
+│   │   ├── local
+│   │   │   ├── bin
+│   │   │   │   └── load
+│   │   │   └── debugsh_apps
+│   │   └── modules
+│   │       ├── pty.ko
+│   │       ├── sidecar.ko
+│   │       └── tun.ko
+│   ├── ubin
+│   │   ├── vieo
+│   │   └── zrun
+│   └── usr
+│       └── local
+│           └── bin
+│               ├── ifconfig
+│               └── route
+├── cnu75.9-3-1ES13.bin
+│   ├── etc
+│   │   └── trace
+│   │       ├── cdp.master.trc
+│   │       ├── dhcp6.master.trc
+│   │       ├── dhcp.master.trc
+│   │       ├── dns.master.trc
+│   │       ├── espd.master.trc
+│   │       ├── ewcl.master.trc
+│   │       ├── imgauthd.master.trc
+│   │       ├── inetd.master.trc
+│   │       ├── init.master.trc
+│   │       ├── netkern.master.trc
+│   │       ├── pae.master.trc
+│   │       ├── prockern.master.trc
+│   │       ├── rtsold.master.trc
+│   │       ├── sunvm.cnu.master.trc
+│   │       ├── tftpClient.master.trc
+│   │       └── vfskern.master.trc
+│   └── flash0
+│       └── local
+│           └── bin
+│               └── dload
+├── cvm75sccp.9-3-1ES13.bin
+│   └── ubin
+│       ├── MurphysCvm
+│       ├── murphyscvm.cnz
+│       └── MurphysCvm.cvm
+├── dsp75.9-3-1ES13.bin
+│   ├── etc
+│   │   └── trace
+│   │       └── dsp.master.trc
+│   └── ubin
+│       └── dsp
+└── jar75sccp.9-3-1ES13.bin
+    ├── bin
+    │   ├── AUTH.png
+    │   ├── BGRND.png
+    │   ├── BLANK.png
+    │   ├── ciscoerror.png
+    │   ├── ciscoreboot.png
+    │   ├── ciscostart.png
+    │   ├── DOWNL.png
+    │   ├── ERROR.png
+    │   ├── NETWK.png
+    │   ├── P2P.png
+    │   ├── WAIT.png
+    │   └── WRITE.png
+    ├── etc
+    │   ├── group
+    │   ├── inetd
+    │   │   └── inetd.conf
+    │   ├── init.conf
+    │   ├── init.tab
+    │   ├── MIDPSecurityPolicy.txt
+    │   ├── passwd
+    │   ├── recovery.tab
+    │   ├── sfr.tab
+    │   ├── syslog.conf
+    │   └── trace
+    │       └── jvm.master.trc
+    ├── flash0
+    │   └── local
+    │       └── etc
+    │           └── drivers.def
+    ├── modules
+    │   ├── audev.ko
+    │   ├── dspdvr.ko
+    │   ├── lcd.ko
+    │   ├── power.ko
+    │   ├── swhk.ko
+    │   └── touchscreen.ko
+    ├── ubin
+    │   ├── debug_phone
+    │   ├── dspCoefs
+    │   ├── dspCosts
+    │   ├── dspfw.bin
+    │   ├── dspParms
+    │   ├── dspVols
+    │   ├── foundation_rmi.jar
+    │   ├── Murphys.jar
+    │   └── phone
+    └── usr
+        └── local
+            └── etc
+                ├── tzunpack
+                └── zi.tar
